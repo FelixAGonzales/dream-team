@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/doggies" => "doggies#index"
+  get "/candies" => "candies#index"
 end
